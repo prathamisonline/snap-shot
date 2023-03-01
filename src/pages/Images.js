@@ -27,7 +27,7 @@ const Images = () => {
     let title = image.title;
     let url = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}_m.jpg`;
     return (
-      <div>
+      <div key={image.id}>
         <img src={url} key={id} alt={title} />
       </div>
     );
