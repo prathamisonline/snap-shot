@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 20rem;
+  height: 1.5rem;
+  border: 2px solid lightblue;
+}
+button {
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  background: lightblue;
+  border: none;
+  padding: 7px;
+}

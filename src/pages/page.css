@@ -1,0 +1,17 @@
+.image-grid {
+  display: grid;
+  grid-template: 1fr /1fr 1fr 1fr 1fr 1fr;
+  margin: 0 10rem;
+}
+
+.image-grid img {
+  width: 10rem;
+  height: 10rem;
+  transition: transform 1.25s;
+  border-radius: 2px;
+}
+
+.image-grid img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
